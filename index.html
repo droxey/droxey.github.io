@@ -1,59 +1,669 @@
-<!DOCTYPE html>
-<html lang="en-us">
+<!doctype html>
+<html lang="en" data-safeMod="false" data-autoHideScrollbar="true" data-safeModPageInAnimation="fadeIn" data-inAnimation="fadeInUp"
+    data-outAnimation="fadeOutDownBig" data-cover-h1-tune=".85" data-cover-h2-tune="2.3" data-cover-h3-tune=".6" data-cover-h3-span-tune=".8"
+    data-twitter-name="pixelwarsdesign">
 
-  <head>
-    <meta charset="UTF-8">
-    <title>Basic HTML Bio: Dani (DataViz Class)</title>
-    <link rel="stylesheet" href="style.css">
-  </head>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="description" content="droxey.github.io">
+        <meta name="keywords" content="vcard, html5, portfolio">
+        <meta name="author" content="Dani Roxberry">
 
-  <body>
-    <div style="width: 960px; margin: 0 auto;">
-      <h1>Dani Roxberry</h1>
+        <title>droxey.github.io</title>
 
-      <img src="me.png" alt="Dani Roxberry">
+        <link rel="shortcut icon" href="images/ico/favicon.ico">
+        <link rel="apple-touch-icon" href="images/ico/apple-touch-icon.png" />
 
-      <p>ferociously full stack; purveyor of elegant hacks. owner + dev + maker @ bitoriented inc && fullstack/data instructor
-        @ uc berkeley sf.</p>
+        <script type="text/javascript" src="js/modernizr.js"></script>
+        <!--[if lte IE 9]>
+            <script src="js/html5shiv.js"></script>
+            <script src="js/selectivizr-min.js"></script>
+        <![endif]-->
 
-      <ul>
-        <li>
-          <strong>Email:</strong>
-          <a href="mailto:droxey@berkeley.edu">droxey@berkeley.edu</a>
-        </li>
-        <li>
-          <strong>Github:</strong>
-          <a href="https://github.com/droxey" target="_blank">droxey</a>
-        </li>
-        <li>
-          <strong>Twitter:</strong>
-          <a href="https://twitter.com/droxey" target="_blank">droxey</a>
-        </li>
-      </ul>
+        <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic'
+            rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Alfa+Slab+One|Nixie+One|Raleway:200,800' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Tulpen+One|Sacramento' rel='stylesheet' type='text/css'>
 
-      <table>
-        <tr style="background-color: black;">
-          <th>Books</th>
-          <th>Movies</th>
-          <th>Programming Languages</th>
-        </tr>
-        <tr>
-          <td>Snow Crash</td>
-          <td>Stranger than Fiction</td>
-          <td>Python</td>
-        </tr>
-        <tr>
-          <td>House of Leaves</td>
-          <td>The Royal Tenenbaums</td>
-          <td>JavaScript</td>
-        </tr>
-        <tr>
-          <td>Only Revolutions</td>
-          <td>Gattica</td>
-          <td>C#</td>
-        </tr>
-      </table>
-    </div>
-  </body>
+        <link rel="stylesheet" type="text/css" media="print" href="css/print.css">
+        <link rel="stylesheet" type="text/css" href="css/normalize.css">
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="css/animate.css">
+        <link rel="stylesheet" type="text/css" href="css/book.css" />
+        <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+        <link rel="stylesheet" type="text/css" href="css/jquery.fancybox-1.3.4.css">
+        <link rel="stylesheet" type="text/css" href="css/main.css">
 
+        <link class="cover-skin" rel="stylesheet" type="text/css" href="css/skins/cover/standart.css">
+        <link class="base-skin" rel="stylesheet" type="text/css" href="css/skins/base/clean.css">
+        <link class="paper-bg-skin" rel="stylesheet" type="text/css" href="css/skins/paper-bg/cream-dust.css">
+        <link class="body-bg-skin" rel="stylesheet" type="text/css" href="css/skins/body-bg/wood.css">
+    </head>
+
+    <body>
+        <section class="main">
+            <div id="rm-container" class="rm-container rm-closed">
+                <header id="header">
+                    <nav>
+                        <ul>
+                            <li>
+                                <a href='#/home'></a>
+                            </li>
+                            <li>
+                                <a href='#/resume'></a>
+                            </li>
+                            <li>
+                                <a href='#/portfolio'></a>
+                            </li>
+                            <li>
+                                <a href='#/contact'></a>
+                            </li>
+                        </ul>
+                    </nav>
+                </header>
+                <div class="rm-wrapper">
+                    <div class="rm-cover">
+                        <div id="home" class="rm-front page">
+                            <div class="antiscroll-wrap">
+                                <div class="antiscroll-inner">
+                                    <div class="cover">
+                                        <div class="cover-image-holder">
+                                            <img src="images/site/me.png" alt="cover-image">
+                                        </div>
+                                        <h1>droxey</h1>
+                                        <h2>Dani Roxberry</h2>
+                                        <h3>
+                                            <span>INSTRUCTOR</span> UC BERKELEY</h3>
+                                        <h3>
+                                            <span>OWNER</span> bitoriented inc.</h3>
+                                        <h3>
+                                            <span>FREELANCE</span> Available</h3>
+                                        <a href="#/resume" class="rm-button-open ribbon">
+                                            <span class="ribbon-stitches-top"></span>
+                                            <strong class="ribbon-content">OPEN</strong>
+                                            <span class="ribbon-stitches-bottom"></span>
+                                        </a>
+                                        <aside class="widget widget-twitter">
+                                            <a href="https://twitter.com/droxey" class="twitter-link" target="_blank"></a>
+                                            <div id="twitter-list"></div>
+                                        </aside>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="resume" class="rm-back page">
+                            <div class="antiscroll-wrap">
+                                <div class="antiscroll-inner">
+                                    <div class="content">
+                                        <h2>
+                                            <span>RESUME</span>
+                                        </h2>
+                                        <h4 class="about-text">I am a
+                                            <span class="label">battle-tested software architect</span> that expertly pairs real-time, data-driven
+                                            architectures with stunning user experiences.</h4>
+                                        <h3>
+                                            <span>EMPLOYMENT</span>
+                                        </h3>
+                                        <div class="history-group">
+                                            <div class="history-unit">
+                                                <h4 class="work-time">since 2017</h4>
+                                                <div class="work-desc">
+                                                    <h4>Instructor</h4>
+                                                    <h5>UC Berkeley Extention</h5>
+                                                    <p></p>
+                                                </div>
+                                            </div>
+                                            <div class="history-unit">
+                                                <h4 class="work-time">since 2017</h4>
+                                                <div class="work-desc">
+                                                    <h4>Owner / Lead Consultant</h4>
+                                                    <h5>bitoriented inc.</h5>
+                                                    <p></p>
+                                                </div>
+                                            </div>
+                                            <div class="history-unit">
+                                                <h4 class="work-time">2013 - 2017</h4>
+                                                <div class="work-desc">
+                                                    <h4>Founder &amp; Chief Technology Officer</h4>
+                                                    <h5>FrameBuzz, LLC.</h5>
+                                                    <p></p>
+                                                </div>
+                                            </div>
+                                            <div class="history-unit">
+                                                <h4 class="work-time">2011 - 2013</h4>
+                                                <div class="work-desc">
+                                                    <h4>Senior Systems Engineer</h4>
+                                                    <h5>ProAce Technology Services</h5>
+                                                    <p></p>
+                                                </div>
+                                            </div>
+                                            <div class="history-unit">
+                                                <h4 class="work-time">2009 - 2011</h4>
+                                                <div class="work-desc">
+                                                    <h4>Chief Technology Officer</h4>
+                                                    <h5>Titrate Solutions, Ltd.</h5>
+                                                    <p></p>
+                                                </div>
+                                            </div>
+                                            <div class="history-unit">
+                                                <h4 class="work-time">2008 - 2009</h4>
+                                                <div class="work-desc">
+                                                    <h4>Jr. Software Engineer</h4>
+                                                    <h5>NICE inContact</h5>
+                                                    <p></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <h3>
+                                            <span>EDUCATION</span>
+                                        </h3>
+                                        <div class="history-group">
+                                            <div class="history-unit">
+                                                <h4 class="work-time">2006 - 2008</h4>
+                                                <div class="work-desc">
+                                                    <h4>BSCS, Computer Science</h4>
+                                                    <h5>Neumont College of Computer Science</h5>
+                                                    <p></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <h3>
+                                            <span>LANGUAGES</span>
+                                        </h3>
+                                        <h3>
+                                            <span>DATABASES</span>
+                                        </h3>
+                                        <div class="skill-group">
+                                            <div class="skill-unit">
+                                                <h4>PostgreSQL</h4>
+                                                <div class="bar" data-percent="100">
+                                                    <div class="progress"></div>
+                                                </div>
+                                            </div>
+                                            <div class="skill-unit">
+                                                <h4>MySQL</h4>
+                                                <div class="bar" data-percent="100">
+                                                    <div class="progress"></div>
+                                                </div>
+                                            </div>
+                                            <div class="skill-unit">
+                                                <h4>MongoDB</h4>
+                                                <div class="bar" data-percent="90">
+                                                    <div class="progress"></div>
+                                                </div>
+                                            </div>
+                                            <div class="skill-unit">
+                                                <h4>SQLite</h4>
+                                                <div class="bar" data-percent="90">
+                                                    <div class="progress"></div>
+                                                </div>
+                                            </div>
+                                            <div class="skill-unit">
+                                                <h4>MSSQL</h4>
+                                                <div class="bar" data-percent="80">
+                                                    <div class="progress"></div>
+                                                </div>
+                                            </div>
+                                            <div class="skill-unit">
+                                                <h4>Firebase</h4>
+                                                <div class="bar" data-percent="60">
+                                                    <div class="progress"></div>
+                                                </div>
+                                            </div>
+                                            <div class="skill-unit">
+                                                <h4>DB2</h4>
+                                                <div class="bar" data-percent="40">
+                                                    <div class="progress"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="skill-group">
+                                            <div class="skill-unit">
+                                                <h4>CSS, SASS, &amp; LESS</h4>
+                                                <div class="bar" data-percent="100">
+                                                    <div class="progress"></div>
+                                                </div>
+                                            </div>
+                                            <div class="skill-unit">
+                                                <h4>HTML5</h4>
+                                                <div class="bar" data-percent="100">
+                                                    <div class="progress"></div>
+                                                </div>
+                                            </div>
+                                            <div class="skill-unit">
+                                                <h4>JavaScript (ES5 &amp; ES6)</h4>
+                                                <div class="bar" data-percent="100">
+                                                    <div class="progress"></div>
+                                                </div>
+                                            </div>
+                                            <div class="skill-unit">
+                                                <h4>Python</h4>
+                                                <div class="bar" data-percent="100">
+                                                    <div class="progress"></div>
+                                                </div>
+                                            </div>
+
+                                            <div class="skill-unit">
+                                                <h4>C#</h4>
+                                                <div class="bar" data-percent="90">
+                                                    <div class="progress"></div>
+                                                </div>
+                                            </div>
+                                            <div class="skill-unit">
+                                                <h4>PHP</h4>
+                                                <div class="bar" data-percent="90">
+                                                    <div class="progress"></div>
+                                                </div>
+                                            </div>
+                                            <div class="skill-unit">
+                                                <h4>Objective-C</h4>
+                                                <div class="bar" data-percent="90">
+                                                    <div class="progress"></div>
+                                                </div>
+                                            </div>
+                                            <div class="skill-unit">
+                                                <h4>Ruby</h4>
+                                                <div class="bar" data-percent="70">
+                                                    <div class="progress"></div>
+                                                </div>
+                                            </div>
+                                            <div class="skill-unit">
+                                                <h4>C++</h4>
+                                                <div class="bar" data-percent="60">
+                                                    <div class="progress"></div>
+                                                </div>
+                                            </div>
+                                            <div class="skill-unit">
+                                                <h4>ActionScript</h4>
+                                                <div class="bar" data-percent="50">
+                                                    <div class="progress"></div>
+                                                </div>
+                                            </div>
+                                            <div class="skill-unit">
+                                                <h4>Shell Scripting</h4>
+                                                <div class="bar" data-percent="50">
+                                                    <div class="progress"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <h3>
+                                            <span>BACKEND FRAMEWORKS</span>
+                                        </h3>
+                                        <div class="skill-group">
+                                            <div class="skill-unit">
+                                                <h4>Django</h4>
+                                                <div class="bar" data-percent="100">
+                                                    <div class="progress"></div>
+                                                </div>
+                                            </div>
+                                            <div class="skill-unit">
+                                                <h4>Node.js</h4>
+                                                <div class="bar" data-percent="100">
+                                                    <div class="progress"></div>
+                                                </div>
+                                            </div>
+                                            <div class="skill-unit">
+                                                <h4>Tornado</h4>
+                                                <div class="bar" data-percent="100">
+                                                    <div class="progress"></div>
+                                                </div>
+                                            </div>
+                                            <div class="skill-unit">
+                                                <h4>Flask</h4>
+                                                <div class="bar" data-percent="90">
+                                                    <div class="progress"></div>
+                                                </div>
+                                            </div>
+                                            <div class="skill-unit">
+                                                <h4>Mirosoft .NET Framework</h4>
+                                                <div class="bar" data-percent="85">
+                                                    <div class="progress"></div>
+                                                </div>
+                                            </div>
+                                            <div class="skill-unit">
+                                                <h4>Symfony2</h4>
+                                                <div class="bar" data-percent="60">
+                                                    <div class="progress"></div>
+                                                </div>
+                                            </div>
+                                            <div class="skill-unit">
+                                                <h4>Magento</h4>
+                                                <div class="bar" data-percent="50">
+                                                    <div class="progress"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <h3>
+                                            <span>FRONTEND FRAMEWORKS</span>
+                                        </h3>
+                                        <div class="skill-group">
+                                            <div class="skill-unit">
+                                                <h4>jQuery</h4>
+                                                <div class="bar" data-percent="100">
+                                                    <div class="progress"></div>
+                                                </div>
+                                            </div>
+                                            <div class="skill-unit">
+                                                <h4>React</h4>
+                                                <div class="bar" data-percent="85">
+                                                    <div class="progress"></div>
+                                                </div>
+                                            </div>
+                                            <div class="skill-unit">
+                                                <h4>AngularJS</h4>
+                                                <div class="bar" data-percent="80">
+                                                    <div class="progress"></div>
+                                                </div>
+                                            </div>
+                                            <div class="skill-unit">
+                                                <h4>Handlebars</h4>
+                                                <div class="bar" data-percent="80">
+                                                    <div class="progress"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <h3>
+                                            <span>TESTING FRAMEWORKS</span>
+                                        </h3>
+                                        <div class="skill-group">
+                                            <div class="skill-unit">
+                                                <h4>Selenium</h4>
+                                                <div class="bar" data-percent="100">
+                                                    <div class="progress"></div>
+                                                </div>
+                                            </div>
+                                            <div class="skill-unit">
+                                                <h4>Karma</h4>
+                                                <div class="bar" data-percent="75">
+                                                    <div class="progress"></div>
+                                                </div>
+                                            </div>
+                                            <div class="skill-unit">
+                                                <h4>Mocha &amp; Chai</h4>
+                                                <div class="bar" data-percent="75">
+                                                    <div class="progress"></div>
+                                                </div>
+                                            </div>
+                                            <div class="skill-unit">
+                                                <h4>Nightmare.js</h4>
+                                                <div class="bar" data-percent="75">
+                                                    <div class="progress"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="launch">
+                                            <a href="#" class="btn">DOWNLOAD RESUME PDF</a>
+                                        </div>
+                                        <h3>
+                                            <span>SERVICES</span>
+                                        </h3>
+                                        <div class="service-group">
+                                            <div class="service">
+                                                <i class="icon-laptop"></i>
+                                                <h4>Web Development</h4>
+                                                <p></p>
+                                            </div>
+                                            <div class="service">
+                                                <i class="icon-tablet"></i>
+                                                <h4>Mobile Development</h4>
+                                                <p></p>
+                                            </div>
+                                            <div class="service">
+                                                <i class="icon-globe"></i>
+                                                <h4>Private Programming Lessons</h4>
+                                                <p></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="rm-overlay"></div>
+                        </div>
+                    </div>
+                    <div id="portfolio" class="rm-middle portfolio page">
+                        <div class="rm-inner">
+                            <div class="antiscroll-wrap">
+                                <div class="antiscroll-inner">
+                                    <div class="content">
+                                        <h2>
+                                            <span>PORTFOLIO</span>
+                                        </h2>
+                                        <div class="portfolio-items">
+                                            <div class="design hentry">
+                                                <div class="media-box">
+                                                    <img src="images/portfolio/01.jpg" alt="portfolio-post">
+                                                    <div class="mask">
+                                                        <a href="portfolio-item-01.html" class="ajax"></a>
+                                                    </div>
+                                                </div>
+                                                <h4>Happy Bear</h4>
+                                                <p class="category">an illustration work</p>
+                                            </div>
+                                            <!-- portfolio-item -->
+
+                                            <!-- portfolio-item - lightbox video -->
+                                            <div class="coding video hentry">
+                                                <div class="media-box">
+                                                    <img src="images/portfolio/07.jpg" alt="portfolio-post">
+                                                    <div class="mask">
+
+                                                        <!-- lightbox - video -->
+                                                        <a href="http://player.vimeo.com/video/37254322?badge=0&amp;color=ffffff" title="Paper by FiftyThree" data-lightbox-gallery="fancybox-item-03"
+                                                            class="lightbox iframe"></a>
+                                                        <!-- lightbox - video -->
+
+                                                    </div>
+                                                </div>
+                                                <h4>Paper by FiftyThree</h4>
+                                                <p class="category">Lightbox Video</p>
+                                            </div>
+                                            <!-- portfolio-item - lightbox video -->
+
+
+                                            <!-- portfolio-item - lightbox image -->
+                                            <div class="design image hentry">
+                                                <div class="media-box">
+                                                    <img src="images/portfolio/06.jpg" alt="portfolio-post">
+                                                    <div class="mask">
+
+                                                        <!-- lightbox - image -->
+                                                        <a href="images/portfolio/lightbox-01.jpg" title="Animal with love" data-lightbox-gallery="fancybox-item-01" class="lightbox"></a>
+                                                        <!-- lightbox - image -->
+
+                                                    </div>
+                                                </div>
+                                                <h4>Lightbox Image</h4>
+                                                <p class="category">a booking mobile app</p>
+                                            </div>
+                                            <!-- portfolio-item - lightbox image -->
+
+
+                                            <!-- portfolio-item - lightbox soundcloud -->
+                                            <div class="coding audio hentry">
+                                                <div class="media-box">
+                                                    <img src="images/portfolio/05.jpg" alt="portfolio-post">
+                                                    <div class="mask">
+
+                                                        <!-- lightbox - soundcloud -->
+                                                        <a href="http://w.soundcloud.com/player/?url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F207988&" title="Soundcloud embed"
+                                                            data-lightbox-gallery="fancybox-item-04" class="lightbox iframe"></a>
+                                                        <!-- lightbox - soundcloud -->
+
+                                                    </div>
+                                                </div>
+                                                <h4>Volume 2</h4>
+                                                <p class="category">Lightbox Soundcloud</p>
+                                            </div>
+                                            <!-- portfolio-item - lightbox soundcloud -->
+
+
+                                            <!-- portfolio-item - lightbox gallery -->
+                                            <div class="logo image hentry">
+                                                <div class="media-box">
+                                                    <img src="images/portfolio/02.jpg" alt="portfolio-post">
+                                                    <div class="mask">
+
+                                                        <!-- lightbox - gallery -->
+                                                        <a href="images/portfolio/lightbox-02.jpg" data-lightbox-gallery="fancybox-item-02" class="lightbox" title="Octopus is dangerous!"></a>
+                                                        <a href="images/portfolio/lightbox-04.jpg" data-lightbox-gallery="fancybox-item-02" class="hidden lightbox"></a>
+                                                        <a href="images/portfolio/lightbox-03.jpg" data-lightbox-gallery="fancybox-item-02" class="hidden lightbox" title="Dog have dreams"></a>
+                                                        <!-- lightbox - gallery -->
+
+                                                    </div>
+                                                </div>
+                                                <h4>Lightbox Gallery</h4>
+                                                <p class="category">Web Design, UI Design</p>
+                                            </div>
+                                            <!-- portfolio-item - lightbox gallery -->
+
+
+                                            <!-- portfolio-item - custom url -->
+                                            <div class="logo url hentry">
+                                                <div class="media-box">
+                                                    <img src="images/portfolio/10.jpg" alt="portfolio-post">
+                                                    <div class="mask">
+                                                        <a href="http://themeforest.net/user/pixelwars" target="_blank"></a>
+                                                    </div>
+                                                </div>
+                                                <h4>Character Sketches</h4>
+                                                <p class="category">illustration / sketch</p>
+                                            </div>
+                                            <!-- portfolio-item - custom url -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="rm-overlay"></div>
+                        </div>
+                    </div>
+                    <div class="rm-right">
+                        <div class="rm-front">
+                            <div class="cover">
+
+                                <!-- cover-image-holder -->
+                                <div class="cover-image-holder">
+                                    <img src="images/site/cover-2.jpg" alt="cover-image">
+                                </div>
+                                <!-- cover-image-holder -->
+
+                            </div>
+                            <!-- BACK COVER IMAGE -->
+
+                        </div>
+                        <div id="contact" class="rm-back page">
+                            <div class="antiscroll-wrap">
+                                <div class="antiscroll-inner">
+                                    <div class="content">
+                                        <h2>
+                                            <span>CONTACT</span>
+                                        </h2>
+                                        <h3>Where am I in this world?</h3>
+                                            <div class="map">
+
+                                                    <iframe src="https://maps.google.com/maps?source=s_q&amp;f=q&amp;hl=en&amp;geocode=&amp;q=little+italy&amp;aq=&amp;sll=36.558188,-86.709595&amp;sspn=3.878053,8.453979&amp;ie=UTF8&amp;hq=&amp;hnear=Little+Italy,+New+York&amp;t=p&amp;ll=40.84706,-73.125&amp;spn=6.647611,26.367188&amp;z=5&amp;output=embed"></iframe>
+
+                                            </div>
+
+
+                                        <p class="center">Please feel free to contact me about anything.</p>
+
+                                        <h3>
+                                            <span>LET'S SOCIALIZE</span>
+                                        </h3>
+
+                                        <!-- SOCIAL -->
+                                        <ul class="social">
+                                            <li>
+                                                <a class="facebook" href="https://facebook.com/droxey" target="_blank" ></a>
+                                            </li>
+                                            <li>
+                                                <a class="twitter" href="https://twitter.com/droxey"  target="_blank"></a>
+                                            </li>
+                                            <li>
+                                                <a class="linkedin" href="https://linkedin.com/in/daniroxberry"  target="_blank"></a>
+                                            </li>
+                                            <li>
+                                                <a class="github" href="https://github.com/droxey"  target="_blank"></a>
+                                            </li>
+                                        </ul>
+                                        <h3>
+                                            <span>DROP ME A LINE!</span>
+                                        </h3>
+                                        <div class="contact-form">
+                                            <div class="letter cf">
+
+                                                <div class="stamp">
+                                                    <img src="images/site/stamp-image.png" alt="stamp">
+                                                </div>
+
+                                                <div class="letter-info">
+                                                    <h4>Johhny Doe</h4>
+                                                    <p>
+                                                        <a href="#">
+                                                            <i>johhny@gmail.com</i>
+                                                        </a>
+                                                    </p>
+                                                    <p> - Planet Earth</p>
+                                                </div>
+
+                                            </div>
+                                            <!-- LETTER -->
+
+
+                                            <form id="contact-form" method="post">
+                                                <input type="hidden" id="to" name="to" value="dani@outputs.io">
+                                                <p>
+                                                    <label for="name">Name</label>
+                                                    <input type="text" name="name" id="name" class="required">
+                                                </p>
+                                                <p>
+                                                    <label for="email">Email</label>
+                                                    <input type="text" name="email" id="email" class="required email">
+                                                </p>
+                                                <p>
+                                                    <label for="subject">Subject</label>
+                                                    <input type="text" name="subject" id="subject" class="required">
+                                                </p>
+                                                <p>
+                                                    <label for="message">Message</label>
+                                                    <textarea name="message" id="message" class="required"></textarea>
+                                                </p>
+                                                <p>
+                                                    <img class="ajax-loader" src="images/bckg/loader_light.gif" alt="Sending ...">
+                                                    <input type="submit" class="btn submit" value="SEND">
+                                                </p>
+                                            </form>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <a class="rm-close">
+                                <span></span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="p-overlay"></div>
+        <div class="p-overlay"></div>
+        <div class="loader"></div>
+        <div class="alert"></div>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/jquery-1.8.3.min.js"><\/script>')</script>
+        <script src="js/jquery.address-1.5.min.js"></script>
+        <script src="js/antiscroll.js"></script>
+        <script src="js/jquery.fittext.js"></script>
+        <script src="js/jquery.imagesloaded.min.js"></script>
+        <script src="js/jquery.isotope.min.js"></script>
+        <script src="js/jquery.fitvids.js"></script>
+        <script src="js/jquery.validate.min.js"></script>
+        <script src="js/jquery.fancybox-1.3.4.pack.js"></script>
+        <script src="js/send-mail.js"></script>
+        <script src="js/twitterFetcher_v10_min.js"></script>
+        <script src="js/main.js"></script>
+    </body>
 </html>
