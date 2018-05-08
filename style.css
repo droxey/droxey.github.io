@@ -1,0 +1,29 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: "Arial";
+}
+
+h1 {
+  color: greenyellow;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+a {
+  color: greenyellow;
+}
+
+table tr {
+  background-color: #ccc;
+  border: #aaa;
+}
+
+td {
+  color: black;
+  padding: 5px;
+}
+
+th {
+  color: greenyellow;
+}
