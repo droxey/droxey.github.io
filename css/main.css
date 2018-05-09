@@ -414,7 +414,7 @@ input[type="submit"] {
 /* About text */
 h4.about-text {
   text-align: center;
-  font-size: 1.4em;
+  font-size: 1.2em;
   line-height: 160%;
   padding: 0.3em 0;
 }
@@ -491,7 +491,8 @@ h4.about-text {
 }
 .service p {
   margin-top: 0em;
-  font-size: .75em;
+  font-size: 0.75em;
+    font-family: Lato, Arial, serif;
 }
 .service h4 {
   margin-bottom: 0em;
@@ -3295,24 +3296,38 @@ blockquote cite {
 }
 
 .text-portfolio ul li a {
+  text-decoration: none;
+  border-bottom: 1px dashed;
+  font-weight: bold;
 }
 
 .text-portfolio ul li p {
+  font-family: Lato, Arial, serif;
   margin: 3px 0;
-  font-size: 0.8em;
-  line-height: 14px;
-  color: #666666;
+  font-size: 0.75em;
+  color: #999;
+  line-height: 1.2em;
 }
 
 .text-portfolio ul li h4 {
   font-size: 0.9em;
   font-weight: bold;
-  margin-bottom: 2px;
+  margin-bottom: 4px;
   margin-top: 0;
+  color: #111;
+  line-height: 14px;
+}
+
+.text-portfolio ul li span.fa-li {
+      line-height: 18px;
 }
 
 .text-portfolio ul li h4 span {
-  color: #aaa;
-  font-style: italic;
+  color: #666;
   float: right;
+  font-size: 0.8em;
+  font-weight: bold;
+  display: inline-block;
+  vertical-align: middle;
+  font-family: Lato, Arial, serif;
 }

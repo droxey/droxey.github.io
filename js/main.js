@@ -12,6 +12,13 @@
   var animEngine;
 
   $(function() {
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
+    gtag("config", "UA-111535249-1");
+
     if ($("iframe,video").length) {
       $("html").fitVids();
     }
