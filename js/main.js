@@ -164,11 +164,17 @@
 
     $("#contact-form").live("submit", function(e) {
       e.preventDefault();
-      console.log("preventDefault: form submit");
 
-      var formSubmission = $(this).serializeArray();
-      console.log(formSubmission);
-      //emailjs.send("default_service","template_UEQM8ASO",{name: "James", notes: "Check this out!"});
+      var serializedForm = $(this).serializeArray();
+      var contactFormObj = {};
+
+      $.each(serializedForm, function(i, v) {
+        contactFormObj[v.name] = v.value;
+      });
+
+      emailjs.send("default_service", "template_UEQM8ASO", contactFormObj);
+
+      return false;
     });
 
     Menu.init();
