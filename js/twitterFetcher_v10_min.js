@@ -519,14 +519,7 @@ if (latest_tweets.length) {
     showInteraction: false
   };
   function handleTweets(tweets) {
-    var x = tweets.length;
-    var n = 0;
-    var html = "<ul>";
-    while (n < x) {
-      html += "<li>" + tweets[n] + "</li>";
-      n++;
-    }
-    html += "</ul>";
+    var html = "<ul><li>" + tweets[0] + "</li></ul>";
     latest_tweets.html(html);
   }
   twitterFetcher.fetch(config);
