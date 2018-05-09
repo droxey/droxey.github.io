@@ -490,10 +490,11 @@ h4.about-text {
   text-shadow: 0 1px 0 #fff;
 }
 .service p {
-  margin-top: 0.4em;
+  margin-top: 0em;
+  font-size: .75em;
 }
 .service h4 {
-  margin-top: 0.8em;
+  margin-bottom: 0em;
 }
 
 /* Button */
@@ -592,13 +593,29 @@ textarea.error {
 }
 .stamp {
   position: relative;
-  float: right;
-  margin-right: 0.4em;
+  float: left;
+  margin-left: 0.4em;
   width: 114px;
   height: 134px;
   background: url(../images/bckg/stamp.png) 0 0 no-repeat;
+  background-size: contain;
 }
-.stamp:after {
+
+.stamp img {
+  display: block;
+  width: 84px;
+  height: 84px;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+.stamp .img-wrap {
+  background: #65a56f;
+  height: 114px;
+  width: 94px;
+  margin: 10px;
+}
+.stamp .img-wrap:after {
   content: "";
   position: absolute;
   top: 0;
@@ -607,29 +624,25 @@ textarea.error {
   height: 100%;
   background: url(../images/bckg/stamp-mask.png) 0 0 no-repeat;
 }
-.stamp img {
-  display: block;
-  width: 94px;
-  height: 114px;
-  position: absolute;
-  top: 10px;
-  left: 10px;
-}
 .letter {
   padding-bottom: 1.2em;
 }
 .letter-info {
-  float: left;
-  margin-left: 0.4em;
+  float: right;
+  margin-right: 0.4em;
 }
 .letter-info h4 {
   margin: 0.5em 0 0 0;
   font-size: 2.2em;
   line-height: 120%;
   font-family: "Sacramento", cursive;
+  color: #333;
 }
 .letter-info p {
-  margin: 0;
+  margin: 0.6em 0 0 0;
+  color: #aaa;
+  font-size: 0.8em;
+  line-height: 15px;
 }
 img.ajax-loader {
   display: none;
@@ -1094,8 +1107,8 @@ img.ajax-loader {
   margin: 0 0.1em 0.2em 0;
   line-height: 100%;
   text-align: center;
-   font-size: 21px;
-  padding: 6px 5px;;
+  font-size: 21px;
+  padding: 6px 5px;
   color: #444;
   border-radius: 50%;
   border: 1px solid #ddd;
@@ -3270,4 +3283,36 @@ blockquote cite {
   .form-submit {
     padding-top: 2em;
   }
+}
+
+.text-portfolio ul {
+}
+
+.text-portfolio ul li {
+  line-height: 0.9em;
+  padding: 2px 0;
+  margin: 5px 0;
+}
+
+.text-portfolio ul li a {
+}
+
+.text-portfolio ul li p {
+  margin: 3px 0;
+  font-size: 0.8em;
+  line-height: 14px;
+  color: #666666;
+}
+
+.text-portfolio ul li h4 {
+  font-size: 0.9em;
+  font-weight: bold;
+  margin-bottom: 2px;
+  margin-top: 0;
+}
+
+.text-portfolio ul li h4 span {
+  color: #aaa;
+  font-style: italic;
+  float: right;
 }
