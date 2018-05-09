@@ -173,6 +173,10 @@
       });
 
       emailjs.send("default_service", "template_UEQM8ASO", contactFormObj);
+      $(this)
+        .closest("form")
+        .find("input[type=text], textarea")
+        .val("");
 
       return false;
     });
