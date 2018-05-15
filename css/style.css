@@ -47,3 +47,100 @@
   }
 }
 /* CUSTOM */
+
+
+
+.text-portfolio ul li {
+  line-height: 0.9em;
+  padding: 2px 0;
+  margin: 5px 0;
+}
+
+.text-portfolio ul li span.fa-li {
+  line-height: 18px;
+}
+
+.text-portfolio ul li a {
+  text-decoration: none;
+  border-bottom: 1px dashed;
+  font-weight: bold;
+  font-size: 1em;
+}
+
+.text-portfolio ul li h4 {
+  font-size: 0.95em;
+  font-weight: bold;
+  margin-bottom: 4px;
+  margin-top: 0;
+  color: #111;
+  line-height: 14px;
+}
+
+.text-portfolio ul li h4 span {
+  color: #666;
+  float: right;
+  font-size: 0.8em;
+  font-weight: bold;
+  display: inline-block;
+  vertical-align: middle;
+  font-family: Lato, Arial, serif;
+  font-variant: small-caps;
+  margin-top: -1px;
+}
+
+.stamp {
+  float: left;
+  width: 114px;
+  height: 134px;
+  background: url(../images/bckg/stamp.png) 0 0 no-repeat;
+  background-size: contain;
+  position: relative;
+}
+
+.letter-info {
+  float: right;
+}
+
+
+.letter-info h4 {
+  margin: 0.5em 0 0 0;
+  font-size: 2.2em;
+  line-height: 120%;
+  font-family: "Sacramento", cursive;
+  color: #333;
+}
+
+
+.letter-info p {
+  margin: 0.6em 0 0 0;
+  color: #aaa;
+  font-size: 0.8em;
+  line-height: 15px;
+}
+
+.stamp .img-wrap {
+  background: #65a56f;
+  height: 114px;
+  width: 94px;
+  position: relative;
+  left: 10px;
+  top: 10px;
+  margin: 0;
+  overflow: hidden;
+}
+
+.stamp img {
+  left: 25px;
+  display: block;
+  width: 84px;
+  height: 84px;
+  position: absolute;
+  top: 30px;
+}
+
+.text-portfolio ul li p {
+  font-family: Lato, Arial, serif;
+  margin: 3px 0;
+  font-size: 0.75em;
+  color: #999;
+  line-height: 1.2em;
