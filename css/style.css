@@ -181,6 +181,10 @@ select {
   margin-bottom: 0;
 }
 
+.content h3 {
+  margin: 1.65em 0 1.75em 0;
+}
+
 /* TABLETS */
 @media screen and (min-width: 768px) {
   .alignnone {
