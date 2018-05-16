@@ -185,6 +185,15 @@ select {
   margin: 1.65em 0 1.75em 0;
 }
 
+.social {
+  margin-bottom: 0;
+}
+
+.contact-form textarea {
+  float: none;
+  width: 100% !important;
+}
+
 /* TABLETS */
 @media screen and (min-width: 768px) {
   .alignnone {
