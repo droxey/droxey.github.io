@@ -85,6 +85,7 @@
   line-height: 120%;
   font-family: "Sacramento", cursive;
   color: #333;
+  text-align: right;
 }
 
 .letter-info p {
@@ -92,6 +93,7 @@
   color: #aaa;
   font-size: 0.8em;
   line-height: 15px;
+  text-align: right;
 }
 
 .stamp .img-wrap {
@@ -159,6 +161,20 @@ input:not([type="submit"]):not([type="button"]):not([type="file"]):not([type="ra
 textarea,
 select {
   width: 100% !important;
+}
+
+.work-desc a {
+  text-decoration: none;
+  border-bottom: 1px dashed;
+  font-weight: bold;
+}
+
+.history-unit .work-desc h4 {
+  margin-top: 7px;
+}
+
+.history-unit .work-desc p {
+  margin-bottom: 0;
 }
 
 /* TABLETS */
