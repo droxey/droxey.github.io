@@ -25,27 +25,7 @@
 .wp-caption.aligncenter {
   text-align: center;
 }
-/* TABLETS */
-@media screen and (min-width: 768px) {
-  .alignnone {
-    margin: 3em 0;
-  }
-  .aligncenter {
-    margin: 2.2em auto;
-  }
-  .alignleft,
-  .alignright {
-    max-width: 50%;
-  }
-  .alignright {
-    float: right;
-    margin: 0.4em 0 1em 2em;
-  }
-  .alignleft {
-    float: left;
-    margin: 0.4em 2em 1em 0;
-  }
-}
+
 /* CUSTOM */
 
 .text-portfolio ul li {
@@ -148,4 +128,57 @@
 
 .w420 .letter-info {
   float: right;
+}
+
+.service p {
+  margin-top: 0;
+  font-family: Lato, Arial, serif;
+  font-size: 0.75em;
+  color: #999;
+  line-height: 1.8em;
+}
+
+.service p a {
+  text-decoration: none;
+  font-weight: bold;
+  border-bottom: 1px dashed;
+}
+
+.service h4 {
+  margin-top: 0.7em;
+  margin-bottom: 0;
+}
+
+.cover h3 {
+  font-weight: bold;
+}
+
+input:not([type="submit"]):not([type="button"]):not([type="file"]):not([type="radio"]):not([type="checkbox"]),
+.w420 .contact-form input,
+.w420 .contact-form textarea,
+textarea,
+select {
+  width: 100% !important;
+}
+
+/* TABLETS */
+@media screen and (min-width: 768px) {
+  .alignnone {
+    margin: 3em 0;
+  }
+  .aligncenter {
+    margin: 2.2em auto;
+  }
+  .alignleft,
+  .alignright {
+    max-width: 50%;
+  }
+  .alignright {
+    float: right;
+    margin: 0.4em 0 1em 2em;
+  }
+  .alignleft {
+    float: left;
+    margin: 0.4em 2em 1em 0;
+  }
 }
