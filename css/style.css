@@ -48,8 +48,6 @@
 }
 /* CUSTOM */
 
-
-
 .text-portfolio ul li {
   line-height: 0.9em;
   padding: 2px 0;
@@ -101,7 +99,6 @@
   float: right;
 }
 
-
 .letter-info h4 {
   margin: 0.5em 0 0 0;
   font-size: 2.2em;
@@ -109,7 +106,6 @@
   font-family: "Sacramento", cursive;
   color: #333;
 }
-
 
 .letter-info p {
   margin: 0.6em 0 0 0;
@@ -144,3 +140,12 @@
   font-size: 0.75em;
   color: #999;
   line-height: 1.2em;
+}
+
+.w420 .stamp {
+  float: left;
+}
+
+.w420 .letter-info {
+  float: right;
+}
