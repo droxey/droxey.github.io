@@ -501,27 +501,3 @@
   window.twitterFetcher = twitterFetcher;
   return twitterFetcher;
 });
-
-// ------------------------------
-/* TWITTER WIDGET */
-var latest_tweets = $("#twitter-list");
-if (latest_tweets.length) {
-  var config = {
-    profile: { screenName: $("html").attr("data-twitter-name") },
-    domId: "",
-    maxTweets: 1,
-    enableLinks: true,
-    showUser: false,
-    showTime: true,
-    dateFunction: "",
-    showRetweet: true,
-    customCallback: handleTweets,
-    showInteraction: false
-  };
-  function handleTweets(tweets) {
-    var html = "<ul><li>" + tweets[0] + "</li></ul>";
-    latest_tweets.html(html);
-  }
-  twitterFetcher.fetch(config);
-}
-// ------------------------------

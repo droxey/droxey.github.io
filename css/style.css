@@ -1,4 +1,7 @@
 /* CONTENT ALIGNMENT */
+.main {
+  min-height: 770px;
+}
 .aligncenter,
 .alignnone,
 .alignright,
@@ -45,6 +48,18 @@
   font-size: 1em;
 }
 
+.text-portfolio ul li em {
+  background: #00a77d;
+  font-size: 0.7em;
+  line-height: 1.6em;
+  vertical-align: baseline;
+  margin-left: 5px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: bold;
+  font-variant: all-petite-caps;
+}
+
 .text-portfolio ul li h4 {
   font-size: 0.95em;
   font-weight: bold;
@@ -62,7 +77,7 @@
   display: inline-block;
   vertical-align: middle;
   font-family: Lato, Arial, serif;
-  font-variant: small-caps;
+  font-variant: all-petite-caps;
   margin-top: -1px;
 }
 
@@ -192,6 +207,84 @@ select {
 .contact-form textarea {
   float: none;
   width: 100% !important;
+}
+
+#twitter-list {
+  display: none;
+}
+
+.cover .widget-twitter a {
+  color: #5ec3df;
+  text-decoration: none;
+  border-bottom: 1px dashed;
+}
+
+.cover .widget-twitter a:hover {
+  color: #aee1ef;
+  border-bottom: 1px solid;
+}
+
+.cover .widget-twitter a i.fab {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+}
+
+.cover .widget-twitter ul {
+  padding: 0;
+}
+
+.cover .widget-twitter ul li {
+  margin-left: 50px;
+  line-height: 15px;
+  padding: 7px 0 9px 0;
+  font-family: Lato, Arial, serif;
+  font-size: 0.85em;
+  line-height: 100%;
+  font-weight: normal;
+  position: relative;
+}
+
+.cover .widget-twitter ul li p.tweet {
+  display: inline-block;
+  float: left;
+  position: absolute;
+  top: 0;
+  height: 100%;
+  max-width: 73%;
+  width: 100%;
+}
+
+.cover .widget-twitter ul li p.timePosted {
+  display: inline-block;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
+
+.cover .widget-twitter ul li div.user {
+  float: left;
+  width: 35px;
+  height: 35px;
+  margin-right: 10px;
+}
+
+.cover .widget-twitter ul li div.user a {
+  border-bottom: none;
+}
+
+.cover .widget-twitter ul li div.user a img {
+  height: 35px;
+  width: 35px;
+}
+
+.cover .widget-twitter ul li div.user > div {
+  display: none;
+}
+
+.cover .widget-twitter ul li p.tweet a {
+  font-weight: bold;
+  border-bottom: none;
 }
 
 /* TABLETS */
