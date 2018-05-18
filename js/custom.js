@@ -36,46 +36,6 @@
     });
   };
 
-  // var initTwitterFetch = function () {
-  //     var latestTweets = $("#twitter-list");
-
-  //     if (latestTweets.length) {
-  //         var config = {
-  //             profile: { screenName: "droxey" },
-  //             domId: "",
-  //             maxTweets: 1,
-  //             enableLinks: true,
-  //             showUser: true,
-  //             showTime: true,
-  //             dateFunction: dateFormatter,
-  //             showRetweet: true,
-  //             customCallback: handleTweets,
-  //             showInteraction: false
-  //         };
-
-  //         var dateFormatter = function (date) {
-  //             var momentToString = moment(date)
-  //                 .format("MMDDYYYY")
-  //                 .toString();
-  //             return moment(momentToString, "MMDDYYYY").fromNow();
-  //         };
-
-  //         var handleTweets = function (tweets) {
-  //             var x = tweets.length;
-  //             var n = 0;
-  //             var html = "<ul>";
-  //             while (n < x) {
-  //                 html += '<li class="clearfix">' + tweets[n] + "</li>";
-  //                 n++;
-  //             }
-  //             html += "</ul>";
-  //             latestTweets.html(html);
-  //         };
-
-  //         twitterFetcher.fetch(config);
-  //     }
-  // };
-
   var initTwitter = function() {
     var latestTweets = $("#twitter-list ul li.latest");
     if (latestTweets.length) {
