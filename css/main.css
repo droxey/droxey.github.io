@@ -179,7 +179,6 @@ input[type="submit"] {
 .icon:before,
 .portfolio-items .mask:before,
 #header ul li a:before,
-.widget-twitter .twitter-link:before,
 .widget-twitter ul li:before,
 .alert:before,
 .social li a.pinterest:before,
@@ -1293,22 +1292,6 @@ img.ajax-loader {
 .widget-twitter ul li p.timePosted {
   margin-left: 1.2em;
   color: #aaa;
-}
-/* update : v.1.2 */
-.cover .widget-twitter .twitter-link:before {
-  content: "\f099";
-  position: absolute;
-  top: 15px;
-  left: 15px;
-  line-height: 1;
-  padding: 0.6em;
-  font-size: 18px;
-  color: #fff;
-  background: #0cf;
-  border-radius: 50%;
-}
-.cover .widget-twitter .twitter-link:hover:before {
-  background: #222;
 }
 
 /* COVER PAGE */
