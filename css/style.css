@@ -71,13 +71,13 @@
   margin-top: 2px;
   font-style: normal;
   text-shadow: 0 2px rgba(0, 0, 0, 0.1);
+  position: relative;
+  top: -1px;
 }
 
 .text-portfolio ul li em {
   float: none;
   margin-left: 5px;
-  position: relative;
-  top: 1px;
 }
 
 .text-portfolio ul li em i {
