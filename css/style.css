@@ -142,14 +142,6 @@
   line-height: 1.2em;
 }
 
-.w420 .stamp {
-  float: left;
-}
-
-.w420 .letter-info {
-  float: right;
-}
-
 .service p {
   margin-top: 0;
   font-family: Lato, Arial, serif;
@@ -323,6 +315,14 @@ select {
     float: left;
     margin: 0.4em 2em 1em 0;
   }
+}
+
+.w420 .stamp {
+  float: left;
+}
+
+.w420 .letter-info {
+  float: right;
 }
 
 .w420 .history-unit .work-desc {
