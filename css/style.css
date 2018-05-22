@@ -170,6 +170,7 @@
 }
 
 .cover {
+  background-color: #00a77d;
   background-position: center bottom;
 }
 
@@ -212,64 +213,77 @@ select {
   width: 100% !important;
 }
 
-#twitter-list {
-  display: none;
+.cover .widget-twitter {
+  max-height: 33px;
+  line-height: 33px;
 }
 
 .cover .widget-twitter a {
-  color: #5ec3df;
+  color: #aee1ef;
   text-decoration: none;
-  border-bottom: 1px dashed;
+  font-variant: small-caps;
+  font-weight: 900;
+  display: inline-block;
+  text-align: right;
+  opacity: 0.75;
 }
 
 .cover .widget-twitter a:hover {
-  color: #aee1ef;
+  color: #5ec3df;
   border-bottom: 1px solid;
-}
-
-.cover .widget-twitter a i.fab {
-  position: absolute;
-  top: 15px;
-  left: 15px;
+  text-decoration: none;
+  border-bottom: none;
+  opacity: 0.98;
 }
 
 .cover .widget-twitter ul {
   padding: 0;
+  background: rgba(0, 0, 0, 0.4);
 }
 
 .cover .widget-twitter ul li {
-  margin-left: 50px;
-  line-height: 15px;
-  padding: 7px 0 9px 0;
   font-family: Lato, Arial, serif;
-  font-size: 0.85em;
-  line-height: 100%;
+  font-size: 0.75em;
   font-weight: normal;
-  position: relative;
+  display: inline-block;
+  width: 100%;
+  height: 30px;
+  line-height: 30px;
+  margin-left: 0;
+  padding: 0 3px;
+}
+
+.cover .widget-twitter ul li p.tweet,
+.cover .widget-twitter ul li p.timePosted,
+.cover .widget-twitter ul li div.user {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+  margin: 0;
 }
 
 .cover .widget-twitter ul li p.tweet {
-  display: inline-block;
-  float: left;
-  position: absolute;
-  top: 0;
-  height: 100%;
-  max-width: 73%;
-  width: 100%;
+  max-width: 80%;
+  margin: 0 auto;
+  color: rgba(255, 255, 255, 0.95);
+}
+
+.cover .widget-twitter ul li div.user,
+.cover .widget-twitter ul li p.timePosted {
+  margin-right: 0.5em;
 }
 
 .cover .widget-twitter ul li p.timePosted {
-  display: inline-block;
+  margin-left: 0.5em;
   position: absolute;
-  top: 15px;
-  right: 15px;
+  right: 0;
+  top: 4px;
 }
 
-.cover .widget-twitter ul li div.user {
-  float: left;
-  width: 35px;
-  height: 35px;
-  margin-right: 10px;
+.cover .widget-twitter ul li div.user,
+.cover .widget-twitter ul li div.user a img {
+  width: 25px;
+  height: 25px;
 }
 
 .cover .widget-twitter ul li div.user a {
@@ -277,8 +291,7 @@ select {
 }
 
 .cover .widget-twitter ul li div.user a img {
-  height: 35px;
-  width: 35px;
+  border-radius: 2px;
 }
 
 .cover .widget-twitter ul li div.user > div {

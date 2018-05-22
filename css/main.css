@@ -179,7 +179,6 @@ input[type="submit"] {
 .icon:before,
 .portfolio-items .mask:before,
 #header ul li a:before,
-.widget-twitter ul li:before,
 .alert:before,
 .social li a.pinterest:before,
 .social li a.instagram:before,
@@ -1223,15 +1222,6 @@ img.ajax-loader {
   position: relative;
   margin-bottom: 3em;
   padding-top: 0.4em;
-}
-.content .widget-twitter ul li:before {
-  content: "\f099";
-  position: absolute;
-  top: 0;
-  left: 0;
-  font-size: 24px;
-  color: #ccc;
-  text-shadow: 0 1px 0 #fff;
 }
 .content .widget-twitter ul li span {
   position: relative;
