@@ -8,4 +8,3 @@ Visit my portfolio at [droxey.github.io](https://droxey.github.io)!
 
 1. Compress `css` and `js` assets into minified scripts.
 1. Lazy load large images.
-1. Uncomment and fix twitter widget on cover.

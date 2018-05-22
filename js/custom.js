@@ -36,43 +36,98 @@
     });
   };
 
+  var initMoment = function() {
+    moment.locale("en", {
+      relativeTime: {
+        future: "in %s",
+        past: "%s ago",
+        s: "seconds",
+        ss: "%ss",
+        m: "a minute",
+        mm: "%dm",
+        h: "an hour",
+        hh: "%dh",
+        d: "a day",
+        dd: "%dd",
+        M: "a month",
+        MM: "%dM",
+        y: "a year",
+        yy: "%dY"
+      }
+    });
+  };
+
   var initTwitter = function() {
+    initMoment();
+
     var latestTweets = $("#twitter-list ul li.latest");
     if (latestTweets.length) {
+      var screenName = $("html").attr("data-twitter-name");
+
+      var getUsernameLink = function(username) {
+        var linkHtml = $(
+          '<a href="https://twitter.com/' +
+            username +
+            '" target="_blank"><i class="fab fa-fw fa-twitter"></i></a>'
+        );
+      };
+
       var config = {
-        profile: { screenName: $("html").attr("data-twitter-name") },
+        profile: { screenName: screenName },
         domId: "",
         maxTweets: 1,
         enableLinks: true,
         showUser: true,
         showTime: true,
-        dateFunction: dateFormatter,
         showRetweet: true,
-        customCallback: handleTweets,
         showInteraction: true,
         showImages: false,
         useEmoji: true,
         linksInNewWindow: true,
-        showPermalinks: true
+        showPermalinks: true,
+        dateFunction: function(date) {
+          var momentToString = moment(date)
+            .format("MMDDYYYY")
+            .toString();
+          return moment(momentToString, "MMDDYYYY").fromNow();
+        },
+        customCallback: function(tweets) {
+          var tweet = $(tweets[0]),
+            userDiv = $(tweet[0]),
+            tweetLinks = $(tweet[1]).find("[data-expanded-url]"),
+            rtUsername = userDiv
+              .find('[data-scribe="element:screen_name"]')
+              .text(),
+            isRetweet = rtUsername.length > 0,
+            timePostedNode = $(tweet[2]).find("a"),
+            rtIndicator = isRetweet
+              ? '<span class="rt">retweeted<br></span>'
+              : '<span class="posted">posted<br></span>',
+            tweetUsername = isRetweet ? rtUsername : screenName;
+
+          timePostedNode.html(
+            rtIndicator +
+              timePostedNode
+                .text()
+                .split("Posted ")
+                .pop()
+                .trim()
+          );
+
+          timePostedNode.attr(
+            "title",
+            "View " + tweetUsername + "'s Tweet on Twitter"
+          );
+
+          tweetLinks.html("View Link");
+          latestTweets.html(tweet);
+        }
       };
-
-      function handleTweets(tweets) {
-        var tweet = $(tweets[0]);
-        var tweetLinks = tweet.find("[data-expanded-url]");
-        tweetLinks.html("View Link");
-        latestTweets.html(tweet);
-      }
-
-      function dateFormatter(date) {
-        var momentToString = moment(date)
-          .format("MMDDYYYY")
-          .toString();
-        return moment(momentToString, "MMDDYYYY").fromNow();
-      }
 
       twitterFetcher.fetch(config);
     }
   };
+
   initTwitter();
   initAnalytics();
   initEmails();
