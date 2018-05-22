@@ -14,13 +14,6 @@
   /* DOCUMENT LOAD */
   $(function() {
     // ------------------------------
-    // FLUID MEDIA
-    if ($("iframe,video").length) {
-      $("html").fitVids();
-    }
-    // ------------------------------
-
-    // ------------------------------
     // PORTFOLIO DETAILS
     // if url contains a portfolio detail url
     portfolioKeyword = $(".portfolio").attr("id");
@@ -474,9 +467,6 @@
           hideLoader();
 
           $("html").addClass("p-overlay-on");
-
-          // responsive videos
-          $(".portfolio-single").fitVids();
 
           if (Modernizr.csstransforms && Modernizr.csstransforms3d) {
             // modern browser
