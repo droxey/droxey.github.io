@@ -324,3 +324,12 @@ select {
     margin: 0.4em 2em 1em 0;
   }
 }
+
+.w420 .history-unit .work-desc {
+  margin-left: 110px;
+}
+
+.w420 .history-unit .work-desc h4 {
+  margin-top: 3px;
+  font-size: 0.84em;
+}
