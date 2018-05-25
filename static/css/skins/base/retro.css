@@ -92,12 +92,12 @@ h3 {
 .content h2 span:before,
 .content h2 span:after,
 .content h3 span:before {
-  font-family: "FontAwesome";
+  font-family: "Font Awesome 5 Pro";
   font-size: 15px;
   position: absolute;
   top: 1.4em;
   display: inline-block;
-  font-weight: normal;
+  font-weight: 900;
   text-align: left;
   font-style: normal;
   display: inline-block;
@@ -116,7 +116,7 @@ h3 {
 .content h3 span:before {
   content: "\f02e";
   top: auto;
-  bottom: -14px;
+  bottom: -15px;
   left: 50%;
   margin-left: -8px;
 }
