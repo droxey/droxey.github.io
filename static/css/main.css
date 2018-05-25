@@ -34,7 +34,7 @@ body {
   background: #2b323f;
   background-image: url(../images/bckg/body-bg/bkg.jpg);
   background-size: cover;
-  background-position: center 40%;
+  background-position: center center;
   background-repeat: repeat-x;
 }
 
