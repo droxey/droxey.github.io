@@ -92,7 +92,7 @@ h3 {
 .content h2 span:before,
 .content h2 span:after,
 .content h3 span:before {
-  font-family: FontAwesome;
+  font-family: "FontAwesome";
   font-size: 15px;
   position: absolute;
   top: 1.4em;
