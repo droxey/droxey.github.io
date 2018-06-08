@@ -29,6 +29,11 @@
 
 /* CUSTOM */
 
+.text-portfolio ul {
+  padding-left: 0;
+  list-style: none;
+}
+
 .text-portfolio ul li {
   line-height: 0.9em;
   padding: 2px 0;
@@ -37,22 +42,32 @@
 
 .text-portfolio ul li span.fa-li {
   line-height: 18px;
+  display: none;
+}
+
+.text-portfolio ul li a,
+.text-portfolio ul li strong {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1em;
+  line-height: 14px;
+}
+
+.text-portfolio ul li strong {
+  border-bottom: 1px dashed rgba(17, 17, 17, 0.25);
 }
 
 .text-portfolio ul li a {
-  text-decoration: none;
-  border-bottom: 1px dashed;
-  font-weight: bold;
-  font-size: 1em;
+  border-bottom: 1px dashed rgba(166, 93, 70, 0.25);
 }
 
 .text-portfolio ul li h4 {
-  font-size: 0.95em;
+  font-size: 1em;
+  border: 1px solid rgba(0, 0, 0, 0);
   font-weight: bold;
-  margin-bottom: 4px;
-  margin-top: 0;
-  color: #111;
-  line-height: 14px;
+  margin: 0;
+  color: #111111;
+  line-height: 17px;
 }
 
 .text-portfolio ul li h4 span,
@@ -66,18 +81,22 @@
   font-variant: all-petite-caps;
   line-height: 12px;
   padding: 1px 0.4em 3px 0.4em;
-  background: #00b49c;
+  background: #333;
   border-radius: 2px;
   margin-top: 2px;
   font-style: normal;
   text-shadow: 0 2px rgba(0, 0, 0, 0.1);
   position: relative;
   top: -1px;
+  margin-right: 2px;
 }
 
-.text-portfolio ul li em {
-  float: none;
-  margin-left: 5px;
+span.label.wip {
+  background: #d64b4b;
+}
+
+span.label.winner {
+  background: #00b49c;
 }
 
 .text-portfolio ul li em i {
@@ -297,10 +316,6 @@ select {
 
 .rm-close span {
   margin-top: 22px;
-}
-
-em.label.wip {
-  background: #d64b4b;
 }
 
 /* TABLETS */
