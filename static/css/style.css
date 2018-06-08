@@ -40,11 +40,6 @@
   margin: 5px 0;
 }
 
-.text-portfolio ul li span.fa-li {
-  line-height: 18px;
-  display: none;
-}
-
 .text-portfolio ul li a,
 .text-portfolio ul li strong {
   text-decoration: none;
@@ -89,6 +84,10 @@
   position: relative;
   top: -1px;
   margin-right: 2px;
+}
+
+.text-portfolio ul li h4 span i {
+  font-weight: normal;
 }
 
 span.label.wip {
