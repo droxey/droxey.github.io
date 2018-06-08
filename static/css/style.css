@@ -29,6 +29,10 @@
 
 /* CUSTOM */
 
+h4.about-text {
+  font-size: 1.2em;
+}
+
 .text-portfolio ul {
   padding-left: 0;
   list-style: none;
