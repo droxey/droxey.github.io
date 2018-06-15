@@ -79,7 +79,7 @@
         enableLinks: true,
         showUser: true,
         showTime: true,
-        showRetweet: true,
+        showRetweet: false,
         showInteraction: true,
         showImages: false,
         useEmoji: true,
@@ -93,20 +93,10 @@
         },
         customCallback: function(tweets) {
           var tweet = $(tweets[0]),
-            userDiv = $(tweet[0]),
             tweetLinks = $(tweet[1]).find("[data-expanded-url]"),
-            rtUsername = userDiv
-              .find('[data-scribe="element:screen_name"]')
-              .text(),
-            isRetweet = rtUsername.length > 0,
-            timePostedNode = $(tweet[2]).find("a"),
-            rtIndicator = isRetweet
-              ? '<span class="rt">retweeted<br></span>'
-              : '<span class="posted">posted<br></span>',
-            tweetUsername = isRetweet ? rtUsername : screenName;
-
+            timePostedNode = $(tweet[2]).find("a");
           timePostedNode.html(
-            rtIndicator +
+            '<span class="posted">posted<br></span>' +
               timePostedNode
                 .text()
                 .split("Posted ")
@@ -116,7 +106,7 @@
 
           timePostedNode.attr(
             "title",
-            "View " + tweetUsername + "'s Tweet on Twitter"
+            "View " + screenName + "'s Tweet on Twitter"
           );
 
           tweetLinks.html("View Link");
