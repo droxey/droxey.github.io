@@ -1,6 +1,6 @@
 # droxey.github.io
 
-[@droxey](https://github.com/droxey)'s portfolio [updated May 2018]
+[@droxey](https://github.com/droxey)'s portfolio.
 
 ## Visit My Portfolio
 
