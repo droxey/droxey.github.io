@@ -8,5 +8,4 @@ Visit my portfolio at [droxey.github.io](https://droxey.github.io)!
 
 ### TODO
 
-1. Compress `css`.
 1. Lazy load large images.

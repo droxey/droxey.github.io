@@ -80,9 +80,9 @@
         showUser: true,
         showTime: true,
         showRetweet: false,
-        showInteraction: true,
+        showInteraction: false,
         showImages: false,
-        useEmoji: true,
+        useEmoji: false,
         linksInNewWindow: true,
         showPermalinks: true,
         dateFunction: function(date) {
@@ -109,7 +109,7 @@
             "View " + screenName + "'s Tweet on Twitter"
           );
 
-          tweetLinks.html("View Link");
+          tweetLinks.html('<i class="fas fa-external-link fa-fw"></i> View');
           latestTweets.html(tweet);
         }
       };
