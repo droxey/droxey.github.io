@@ -359,3 +359,11 @@ select {
   margin-top: 3px;
   font-size: 0.84em;
 }
+
+.rm-wrapper {
+  max-height: auto;
+}
+
+.w420 .rm-wrapper {
+  max-height: 600px;
+}

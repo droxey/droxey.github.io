@@ -1265,7 +1265,7 @@ img.ajax-loader {
 .cover h2 {
   display: block;
   width: 100%;
-  margin: 0% 0 8% 0%;
+  margin: 0% 0 4% 0%;
   padding: 0;
   text-align: center;
   line-height: 1.2;
@@ -1276,8 +1276,10 @@ img.ajax-loader {
 }
 .cover h3 {
   display: block;
-  width: 30%;
-  margin: 5% 0 0 4%;
+  width: 60%;
+  font-weight: bold;
+  line-height: 1.5em;
+  margin: 2.3% 0px 0px 5%;
   padding: 0;
   text-align: left;
   letter-spacing: 1px;
@@ -1290,6 +1292,17 @@ img.ajax-loader {
   display: block;
   font-weight: 800;
   color: #fc0;
+  line-height: 16px;
+}
+.cover h3 i,
+.cover h3 span i {
+  color: #fc0;
+  margin-right: 0;
+}
+.cover h3 span small {
+  color: white;
+  font-weight: 800;
+  font-size: 65%;
 }
 .cover h2,
 .cover h3 {
@@ -1420,7 +1433,7 @@ a.ribbon:hover {
 
 /* HOMEPAGE COVER BLOG LINK */
 .latest-from-blog {
-  display: none;
+  /* display: none; */
   margin: 22px 0;
   position: relative;
   top: 10px;
@@ -3116,12 +3129,12 @@ blockquote cite {
 }
 
 p.tweet img {
-    width: auto;
-    max-width: 100%;
-    height: 14px;
-    vertical-align: middle;
-    margin-left: 2px;
-    margin-right: 2px;
+  width: auto;
+  max-width: 100%;
+  height: 14px;
+  vertical-align: middle;
+  margin-left: 2px;
+  margin-right: 2px;
 }
 
 /* TOP10 Popular Posts Widget */
