@@ -88,6 +88,7 @@ h4.about-text {
   position: relative;
   top: -1px;
   margin-right: 2px;
+  cursor: default;
 }
 
 .text-portfolio ul li h4 span i {
@@ -137,7 +138,7 @@ span.label.winner {
 }
 
 .stamp .img-wrap {
-  background: #65a56f;
+  background: #678594;
   height: 114px;
   width: 94px;
   position: relative;
@@ -208,10 +209,6 @@ select {
 
 .history-unit .work-desc h4 {
   margin-top: 7px;
-}
-
-.history-unit .work-desc p {
-  margin-bottom: 0;
 }
 
 .content h3 {
