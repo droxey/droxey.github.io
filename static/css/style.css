@@ -243,6 +243,14 @@ select {
   font-weight: bolder;
 }
 
+.w420 .launch .btn {
+  padding: 10px 0;
+  border-radius: 5px;
+  display: inline-block;
+  width: 110px;
+  font-weight: bolder;
+}
+
 .btn.resume {
   float: left;
 }
@@ -296,4 +304,11 @@ select {
 
 .w420 .hidexs {
   display: none;
+}
+
+.w420 .btn.resume,
+.w420 .btn.cv {
+  float: none;
+  display: block;
+  margin: 0px auto;
 }
