@@ -8,21 +8,25 @@
   margin: 1.6em auto;
   clear: both;
 }
+
 .wp-caption {
   color: #555;
 }
+
 .wp-caption img {
   border: 0 none;
   height: auto;
   margin: 0;
   padding: 0;
 }
+
 .wp-caption-text {
   font-size: 14px;
   margin: 0;
   padding: 0.6em 0.1em 0;
   color: #c0c0c0;
 }
+
 .wp-caption.aligncenter {
   text-align: center;
 }
@@ -66,23 +70,23 @@ h4.about-text {
   font-weight: bold;
   margin: 0;
   color: #111111;
-  line-height: 17px;
+  line-height: 19px;
 }
 
 .text-portfolio ul li h4 span,
 .text-portfolio ul li em {
   color: white;
   float: right;
-  font-size: 0.85em;
+  font-size: 0.9em;
   font-weight: bold;
   display: inline-block;
   font-family: Lato, Arial, serif;
   font-variant: all-petite-caps;
-  line-height: 12px;
+  line-height: 15px;
   padding: 1px 0.4em 3px 0.4em;
   background: #333;
   border-radius: 2px;
-  margin-top: 2px;
+  margin-top: 1px;
   font-style: normal;
   text-shadow: 0 2px rgba(0, 0, 0, 0.1);
   position: relative;
@@ -95,9 +99,22 @@ h4.about-text {
   font-weight: normal;
 }
 
+.text-portfolio ul li.makerspace i {
+  font-size: .85em;
+  position: relative;
+  top: 1px;
+}
+
 span.label.wip {
   background: #d64b4b;
 }
+
+span.label.curriculum i img {
+  position: relative;
+  top: 2px;
+  height: 11px;
+}
+
 
 span.label.winner {
   background: #00b49c;
@@ -272,17 +289,21 @@ select {
   .alignnone {
     margin: 3em 0;
   }
+
   .aligncenter {
     margin: 2.2em auto;
   }
+
   .alignleft,
   .alignright {
     max-width: 50%;
   }
+
   .alignright {
     float: right;
     margin: 0.4em 0 1em 2em;
   }
+
   .alignleft {
     float: left;
     margin: 0.4em 2em 1em 0;

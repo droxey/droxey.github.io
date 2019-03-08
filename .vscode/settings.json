@@ -1,0 +1,11 @@
+{
+  "[html]": {
+    "editor.wordWrapColumn": 160,
+    "editor.formatOnSave": true,
+    "editor.trimAutoWhitespace": true,
+    "editor.wordWrap": "off",
+    "editor.wrappingIndent": "none",
+    "editor.renderWhitespace": "all",
+    "editor.rulers": [160]
+  }
+}
