@@ -1,0 +1,88 @@
+# Content
+- id: dateFormat
+  translation: "2 January 2006"
+- id: shortdateFormat
+  translation: "2 Jan 2006 15:04:05"
+- id: postedOnDate
+  translation: "Redatto il {{ .Count }}"
+- id: lastModified
+  translation: "(Ultima modifica il {{ .Count }})"
+- id: translationsLabel
+  translation: "Altre lingue: "
+- id: translationsSeparator
+  translation: ", "
+- id: readMore
+  translation: "Leggi"
+- id: olderPosts
+  translation: "Articoli più vecchi"
+- id: newerPosts
+  translation: "Articoli più recenti"
+- id: previousPost
+  translation: "Articolo precedente"
+- id: nextPost
+  translation: "Articolo successivo"
+- id: readTime
+  translation: "minuti"
+- id: words
+  translation: "parole"
+
+
+# 404 page
+- id: pageNotFound
+  translation: "Ops, questa pagina non esiste. (errore 404)"
+
+# Footer
+- id: poweredBy # Accepts HTML
+  translation: '<a href="http://gohugo.io">Sviluppato con Hugo v{{ .Site.Hugo.Version }}</a> &nbsp;&bull;&nbsp; Tema: <a href="http://deanattali.com/beautiful-jekyll/">Beautiful Jekyll</a> adattato a <a href="https://github.com/halogenica/beautifulhugo">Beautiful Hugo</a>'
+
+# Navigation
+- id: toggleNavigation
+  translation: "Attiva/disattiva la navigazione"
+- id: languageSwitcherLabel
+  translation: "Linguaggio"
+- id: gcseLabelShort
+  translation: "Cerca"
+- id: gcseLabelLong
+  translation: "Cerca {{ .Site.Title }}"
+- id: gcseClose
+  translation: "Chiudi"
+
+# Staticman
+- id: noComment
+  translation: "Nessun commento"
+- id: oneComment
+  translation: "commento"
+- id: moreComment
+  translation: "commenti"
+- id: commentFormInfo
+  translation: "Il tuo indirizzo email non sarà pubblicato. Sono segnati i campi obbligatori"
+- id: useMarkdown
+  translation: "Puoi usare la sintassi Markdown"
+- id: yourName
+  translation: "Il tuo nome"
+- id: yourEmail
+  translation: "Il tuo indirizzo mail"
+- id: yourWebsite
+  translation: "Il tuo website"
+- id: replyToMsg
+  translation: "Rispondi a questo commento"
+- id: btnSubmit
+  translation: "Invia commento"
+- id: btnSubmitted
+  translation: "Inviato"
+- id: btnReset
+  translation: "Azzera"
+- id: successMsg
+  translation: "Grazie per il tuo commento! Verrà visualizzato nel sito una volta che sarà approvato."
+- id: errorMsg
+  translation: "C'è stato un errore con il tuo invio. Assicurati che tutti i campi richiesti siano stati completati e riprova."
+
+# Delayed Disqus
+- id: show
+  translation: "Mostra"
+- id: comments
+  translation: "commenti"
+
+# Related posts
+- id: seeAlso
+  translation: "Guarda anche"

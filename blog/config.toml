@@ -1,0 +1,126 @@
+baseURL = "https://droxey.com/blog/"
+languageCode = "en-us"
+title = "droxey.com/blog"
+theme = "beautifulhugo"                 # https://gitlab.com/VincentTam/beautifulhugo
+footnoteReturnLinkContents = "↩"
+enableGitInfo = true
+googleAnalytics = "UA-111535249-1"
+canonifyurls = true
+contentdir = "content"
+layoutdir = "layouts"
+publishdir = "public"
+enableEmoji = true
+hasCJKLanguage = true
+summaryLength = 200
+Paginate = 5
+
+
+[params]
+  AuthorName = "Dani Roxberry"
+  GitHubUser = "droxey"
+  SidebarRecentLimit = 5
+  useHLJS = true
+  commit = "https://github.com/droxey/droxey.github.io/tree/"
+  faviconfile              = "img/logo.jpg"
+  avatar                   = "img/me.jpg"             # path to image in static dir e.g img/avatar.png (do not use in the same time as gravatar)
+  author                   = "Xin Zhang"
+  description              = ["Life is a dream,", "Dream is a life."]           # appears in the site header when set to a non-empty string
+  welcome_head             = "Hello, Dreambooker!"
+  welcome_word             = "~ Chase your dream ~"
+
+  latestpostscount         = 5                             # how many posts to display on the home page
+  bloggroupby              = 'month'
+  dateform                 = "Jan 2, 2006"
+  dateformfull             = "2006-01-02  Monday  15:04:05"
+  noshowreadtime           = false
+
+  # links
+  email                    = "dani@bitoriented.com"
+  github                   = "//github.com/droxey"
+  twitter                  = "//twitter.com/droxey"
+  linkedin                = "//linkedin.com/in/droxey"
+  include_rss              = true                         # include RSS <link> tag in <head> and show RSS icon
+
+  firstName = "Dani"
+  lastName = "Roxberry"
+  address = "San Francisco, CA"
+  phone = "+1 5128505067"
+  profileImage = "img/portrait.jpg"
+  favicon = "/favicon.ico"
+
+  showSkills = true
+  showProjects = false
+  showOpenSource = true
+  showPublications = true
+  showExperience = false
+  showEducation = true
+  showQr = true
+
+[params.staticman]
+  username = "droxey"
+  repository = "droxey.github.io"
+  branch = "source"
+  notifications = true
+
+[[params.handles]]
+    name = "GitHub"
+    link = "https://github.com/droxey/"
+
+[[params.handles]]
+    name = "Twitter"
+    link = "https://twitter.com/droxey/"
+
+[Params.staticman]
+  api = "https://<API-ENDPOINT>/v3/entry/{GIT-HOST}/<USERNAME>/<REPOSITORY-BLOGNAME>/master/comments"
+
+[permalinks]
+  posts = "/:year/:month/:title/"
+
+[markup]
+  defaultMarkdownHandler = "goldmark"
+  [markup.blackFriday]
+    angledQuotes = false
+    footnoteAnchorPrefix = ""
+    footnoteReturnLinkContents = ""
+    fractions = true
+    hrefTargetBlank = false
+    latexDashes = true
+    nofollowLinks = false
+    noreferrerLinks = false
+    plainIDAnchors = true
+    skipHTML = false
+    smartDashes = true
+    smartypants = true
+    smartypantsQuotesNBSP = false
+    taskLists = true
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      definitionList = true
+      footnote = true
+      linkify = true
+      strikethrough = true
+      table = true
+      taskList = true
+      typographer = true
+    [markup.goldmark.parser]
+      attribute = true
+      autoHeadingID = true
+      autoHeadingIDType = "github"
+    [markup.goldmark.renderer]
+      hardWraps = false
+      unsafe = false
+      xHTML = false
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = false
+    hl_Lines = ""
+    lineNoStart = 1
+    lineNos = false
+    lineNumbersInTable = true
+    noClasses = true
+    style = "monokai"
+    tabWidth = 4
+  [markup.tableOfContents]
+    endLevel = 3
+    ordered = false
+    startLevel = 2
