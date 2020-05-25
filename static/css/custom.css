@@ -2,7 +2,16 @@
 
 
 /* book style cover - effect shadow */
-.cover:after { content: ''; position:absolute; top:0; left:1px; width:2px; height:100%; background:rgba(0,0,0,.2); box-shadow:-3px 0 6px 0 rgba(0,0,0,.1), 3px 0 6px 0 rgba(0,0,0,.1), 1px 1px 2px 0 rgba(255,255,255,.5); }
+.cover:after {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 1px;
+	width: 2px;
+	height: 100%;
+	background: rgba(0, 0, 0, .2);
+	box-shadow: -3px 0 6px 0 rgba(0, 0, 0, .1), 3px 0 6px 0 rgba(0, 0, 0, .1), 1px 1px 2px 0 rgba(255, 255, 255, .5);
+}
 
 
 /* SCROLL SHADOWS TOP AND BOTTOM - reduces performance in firefox */
