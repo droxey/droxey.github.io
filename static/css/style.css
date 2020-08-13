@@ -345,3 +345,9 @@ a.btn.resume.github i {
   position: relative;
   top: 5px;
 }
+
+@media screen and (min-width: 1000px) and (max-width: 1360px) {
+  a.btn.resume.github span {
+    display: none;
+  }
+}
