@@ -333,3 +333,15 @@ select {
   display: block;
   margin: 0px auto;
 }
+
+a.btn.resume.github {
+  float: none;
+  width: auto;
+  padding: 10px 20px;
+  display: inline;
+}
+
+a.btn.resume.github i {
+  position: relative;
+  top: 5px;
+}
