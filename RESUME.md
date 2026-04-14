@@ -1,6 +1,6 @@
 #  Dani Roxberry  
 Greater Boston, MA   |   dani@bitoriented.com
-github.com/droxey     |   linkedin.com/in/droxey  
+[github.com/droxey]()     |   [linkedin.com/in/droxey]()
 
   **Engineering leader, inventor, and software engineer with 22+ years shipping production systems**. Built AI tooling that cut code review turnaround by 80% and course dev time by 50%.  
   
