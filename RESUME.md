@@ -79,4 +79,4 @@ Oct 2012 - Dec 2017 Austin, TX
   
 #### Neumont College of Computer Science  
   
-BSCS, Computer Science, 2006 - 2008  | Salt Lake City, UT  
+BSCS, Computer Science, 2006 - 2008  
