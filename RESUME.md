@@ -2,7 +2,7 @@
 Greater Boston, MA   |   dani@bitoriented.com
 [github.com/droxey]()     |   [linkedin.com/in/droxey]()
 
-  **Engineering leader, inventor, and software engineer with 22+ years shipping production systems**. Built AI tooling that cut code review turnaround by 80% and course dev time by 50%.  
+  **Engineering leader, inventor, and software engineer with 20+ years shipping production systems**. Built AI tooling that cut code review turnaround by 80% and course dev time by 50%.  
   
   Led engineering teams through full project lifecycles for 9 years. Designed 16 courses spanning data structures through AI engineering. Patent holder shipping open source AI agent and security-hardened deployment tooling.  
 
