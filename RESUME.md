@@ -28,7 +28,7 @@ I’ve spent almost 20 years shipping production software and nearly a decade te
 
 ## Professional Experience
 
-### Muse & Machine — Founder / Principal Applied AI Engineer
+### Muse & Machine, Founder / Principal Applied AI Engineer
 
 Remote · Jan 2023–Present
 
@@ -36,7 +36,7 @@ Remote · Jan 2023–Present
 - Put nine hardening layers and three segmented Docker networks in place, including allowlisted egress, file-based secrets, and automated runtime checks that prove what’s allowed through and what’s blocked.
 - Built CI around eight Molecule scenarios, lint, syntax checks, and secret scanning so bad config fails before it ships. Separate live smoke tests cover every configured LLM model.
 
-### Dominican University of California — Professor of Applied Computer Science
+### Dominican University of California, Professor of Applied Computer Science
 
 San Rafael, CA · Aug 2021–Present
 
@@ -44,7 +44,7 @@ San Rafael, CA · Aug 2021–Present
 - Built the AI review pipelines that check student submissions.
 - Teach 4+ courses a semester in AI engineering, Go, DevOps, web security, data structures, and JavaScript. Rooms run 10–60. Labs, starters, CI, and automated evals live on GitHub.
 
-### Make School — Instructor, Full-Stack Web
+### Make School, Instructor, Full-Stack Web
 
 San Francisco, CA · Aug 2018–Jul 2021
 
@@ -52,14 +52,14 @@ San Francisco, CA · Aug 2018–Jul 2021
 - Coached 250+ junior engineers through debugging, portfolios, technical interviews, and production deploys.
 - Wrote 12+ enablement modules and automated lesson/slide generation, which cut prep time in half.
 
-### UC Berkeley Extension — Instructor, Full-Stack Web / Data Science
+### UC Berkeley Extension, Instructor, Full-Stack Web / Data Science
 
 San Francisco, CA · Jul 2017–Dec 2018
 
 - Taught full-stack and data viz with repo-backed docs, live demos, clear project specs, debugging sessions, and deployment walkthroughs.
 - Ran workshops where 200+ engineers shipped capstones with CLI workflows, GitHub releases, secret management, and real production infra.
 
-### FrameBuzz — Founder / Inventor / Chief Technology Officer
+### FrameBuzz, Founder / Inventor / Chief Technology Officer
 
 Austin, TX · Oct 2012–Dec 2017
 
@@ -69,31 +69,31 @@ Austin, TX · Oct 2012–Dec 2017
 
 ## Earlier Experience
 
-### bitoriented inc. — Founder / Principal Software Engineer
+### bitoriented inc., Founder / Principal Software Engineer
 
 Remote · Nov 2014–Aug 2018
 
 Custom software across Django, PHP, .NET, iOS, e-commerce, telecom, healthcare, education, and media. Turned vague requirements into scoped production systems. Helped non-technical founders understand what we were building and how to keep it running.
 
-### ProAce Technology Services — Senior Systems Engineer
+### ProAce Technology Services, Senior Systems Engineer
 
 Austin, TX · Apr 2011–Mar 2013
 
 Shipped 8+ iOS, Django, PHP, and .NET projects for e-commerce, telecom, and healthcare. Owned scope through production launch.
 
-### HZDG — Senior Interactive Developer
+### HZDG, Senior Interactive Developer
 
 Remote · Oct 2010–Jan 2011
 
 Stayed on after HZDG acquired Titrate, mentoring developers and reviewing their code to tighten delivery.
 
-### Titrate Solutions — CTO
+### Titrate Solutions, CTO
 
 Austin, TX · Sep 2009–Dec 2010
 
 Led a three-person team that launched 12+ web, interactive, and mobile products in one year for NFL, IMAX, Brooks Brothers, and other brands.
 
-### NiCE — Junior Software Engineer
+### NiCE, Junior Software Engineer
 
 Midvale, UT · Apr 2008–Sep 2009
 
@@ -101,7 +101,7 @@ Built call-center features, admin tools, and NOC alerting for next-gen inContact
 
 ## Education
 
-### Neumont College of Computer Science — B.S. Computer Science
+### Neumont College of Computer Science, B.S. Computer Science
 
 Salt Lake City, UT · 2006–2008
 
@@ -109,7 +109,7 @@ Accelerated bachelor’s in two years. Charter member, Society of Women Engineer
 
 ## Patents
 
-**U.S. Patent 9,066,064** — Conversations on Time-Shifted Content. Timestamp-anchored conversations and viewer interaction for time-shifted media. <https://patents.google.com/patent/US9066064B2/en>
+**U.S. Patent 9,066,064**: Conversations on Time-Shifted Content. Timestamp-anchored conversations and viewer interaction for time-shifted media. <https://patents.google.com/patent/US9066064B2/en>
 
 ## Open Source
 
