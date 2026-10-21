@@ -1,18 +1,18 @@
 # Dani Roxberry  
-Developer Enablement & Technical Education · Applied AI Engineering & Agent Platforms  
+Applied AI & Software Engineering · Agent Platforms · Engineering Leadership & Developer Enablement  
 Greater Boston, MA   |   dani@bitoriented.com  
 [github.com/droxey](https://github.com/droxey)   |   [linkedin.com/in/droxey](https://linkedin.com/in/droxey)
 
 ## Summary
 
-I’ve spent nearly a decade teaching engineers and 20+ years shipping production software. I design curriculum, run workshops and hackathons, and coach developers on getting AI work into production. That’s 500+ technical sessions and 10+ hackathons so far. I also build secure, provider-agnostic LLM and agent platforms, then push them past the pilot into something a team can run. I’ve been a founder or CTO at four startups.
+I’ve spent 20+ years shipping production software. I build secure, provider-agnostic LLM and agent platforms and push them past the pilot into something a team can run. My leadership and teaching come from that work. For nearly a decade I’ve designed curriculum, run workshops and hackathons, and coached developers on getting AI work into production, across 500+ technical sessions and 10+ hackathons. I’ve been a founder or CTO at four startups.
 
 ## Core Expertise
 
-- **Enablement & leadership:** curriculum design, technical instruction, workshops, hackathons, live coding, architecture walkthroughs, mentoring, code review, AI strategy, product roadmaps, responsible AI, investor and customer discussions
 - **AI systems:** LLMs, RAG, multi-agent workflows, MCP, tool use, memory, model routing, evaluations, observability, guardrails, LLMOps
 - **Platforms & security:** Docker, Kubernetes, CI/CD, infrastructure as code, Ansible, deployment verification, secrets management, egress controls, network isolation, cost controls
 - **Languages & data:** Go, Python, TypeScript, JavaScript, C#, SQL, React, Node.js, Django, REST APIs, PostgreSQL, MongoDB, Redis, DuckDB, Qdrant
+- **Leadership & enablement:** curriculum design, technical instruction, workshops, hackathons, live coding, architecture walkthroughs, mentoring, code review, AI strategy, product roadmaps, responsible AI, investor and customer discussions
 
 ## Professional Experience
 
