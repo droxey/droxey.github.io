@@ -11,7 +11,7 @@ I’ve spent 20+ years shipping production software. I build secure, provider-ag
 
 - **AI systems:** LLMs, RAG, multi-agent workflows, MCP, tool use, memory, model routing, evaluations, observability, guardrails, LLMOps
 - **Platforms & security:** Docker, Kubernetes, CI/CD, infrastructure as code, Ansible, deployment verification, secrets management, egress controls, network isolation, cost controls
-- **Languages & data:** Go, Python, TypeScript, JavaScript, C#, SQL, React, Node.js, Django, REST APIs, PostgreSQL, MongoDB, Redis, DuckDB, Qdrant
+- **Languages & data:** Go, Python, TypeScript, JavaScript, C#, SQL, React, Node.js, Django, REST APIs, PostgreSQL, MongoDB, Redis, DuckDB
 - **Leadership & enablement:** curriculum design, technical instruction, workshops, hackathons, live coding, architecture walkthroughs, mentoring, code review, AI strategy, product roadmaps, responsible AI, investor and customer discussions
 
 ## Professional Experience
@@ -94,8 +94,8 @@ Built call-center features, admin tools, and NOC alerting for next-gen inContact
 
 187 stars across my public repositories.
 
-- **My projects:** <https://github.com/stars/droxey/lists/projects> · My AI systems, deployment, prompt infrastructure, curriculum, and onboarding work.
-- **My courses:** <https://github.com/stars/droxey/lists/courses> · Open course materials, assignments, CI, and automated evals for applied software engineering at Dominican.
+- **My projects** ([https://github.com/stars/droxey/lists/projects](https://github.com/stars/droxey/lists/projects)): My AI systems, deployment, prompt infrastructure, curriculum, and onboarding work.
+- **My courses** ([https://github.com/stars/droxey/lists/courses](https://github.com/stars/droxey/lists/courses)): Open course materials, assignments, CI, and automated evals for applied software engineering at Dominican.
 
 ## Patents
 
